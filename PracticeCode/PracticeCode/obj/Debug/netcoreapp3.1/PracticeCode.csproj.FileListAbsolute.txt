@@ -1,0 +1,12 @@
+/Users/xiechen/Projects/PracticeCode/PracticeCode/bin/Debug/netcoreapp3.1/PracticeCode.deps.json
+/Users/xiechen/Projects/PracticeCode/PracticeCode/bin/Debug/netcoreapp3.1/PracticeCode.runtimeconfig.json
+/Users/xiechen/Projects/PracticeCode/PracticeCode/bin/Debug/netcoreapp3.1/PracticeCode.runtimeconfig.dev.json
+/Users/xiechen/Projects/PracticeCode/PracticeCode/bin/Debug/netcoreapp3.1/PracticeCode.dll
+/Users/xiechen/Projects/PracticeCode/PracticeCode/bin/Debug/netcoreapp3.1/PracticeCode.pdb
+/Users/xiechen/Projects/PracticeCode/PracticeCode/obj/Debug/netcoreapp3.1/PracticeCode.csprojAssemblyReference.cache
+/Users/xiechen/Projects/PracticeCode/PracticeCode/obj/Debug/netcoreapp3.1/PracticeCode.AssemblyInfoInputs.cache
+/Users/xiechen/Projects/PracticeCode/PracticeCode/obj/Debug/netcoreapp3.1/PracticeCode.AssemblyInfo.cs
+/Users/xiechen/Projects/PracticeCode/PracticeCode/obj/Debug/netcoreapp3.1/PracticeCode.csproj.CoreCompileInputs.cache
+/Users/xiechen/Projects/PracticeCode/PracticeCode/obj/Debug/netcoreapp3.1/PracticeCode.dll
+/Users/xiechen/Projects/PracticeCode/PracticeCode/obj/Debug/netcoreapp3.1/PracticeCode.pdb
+/Users/xiechen/Projects/PracticeCode/PracticeCode/obj/Debug/netcoreapp3.1/PracticeCode.genruntimeconfig.cache
