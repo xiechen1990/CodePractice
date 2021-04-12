@@ -13,6 +13,25 @@ namespace PracticeCode
 
 
 
+        public static void MoveZeroes(int[] nums)
+        {
+            int index = 0;
+            for(int i = 0;i<nums.Length;i++)
+            {
+                if(nums[i] != 0)
+                {
+                    nums[index] = nums[i];
+                    index++;
+                }
+            }
+            for(int j = 0;j<nums.Length - index+1;j++)
+            {
+                nums[index] = 0;
+            }
+
+        }
+
+
         public static Array plusOne(int[] digits)
         {
             for(int i = digits.Length - 1; i>= 0; i --)
