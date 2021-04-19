@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\86186\\Desktop\\算法训练营\\CodePractice\\PracticeCode\\PracticeCode\\PracticeCode.csproj",
-      "projectName": "PracticeCode",
-      "projectPath": "C:\\Users\\86186\\Desktop\\算法训练营\\CodePractice\\PracticeCode\\PracticeCode\\PracticeCode.csproj",
+      "projectUniqueName": "C:\\Users\\86186\\Desktop\\算法训练营\\CodePractice\\PracticeCode\\HomeWorkWeek2\\HomeWorkWeek2.csproj",
+      "projectName": "HomeWorkWeek2",
+      "projectPath": "C:\\Users\\86186\\Desktop\\算法训练营\\CodePractice\\PracticeCode\\HomeWorkWeek2\\HomeWorkWeek2.csproj",
       "packagesPath": "C:\\Users\\86186\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\86186\\Desktop\\算法训练营\\CodePractice\\PracticeCode\\PracticeCode\\obj\\",
+      "outputPath": "C:\\Users\\86186\\Desktop\\算法训练营\\CodePractice\\PracticeCode\\HomeWorkWeek2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\86186\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
