@@ -1,0 +1,13 @@
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\obj\Debug\netcoreapp3.1\HomeWorkWeek5.csprojAssemblyReference.cache
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\obj\Debug\netcoreapp3.1\HomeWorkWeek5.AssemblyInfoInputs.cache
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\obj\Debug\netcoreapp3.1\HomeWorkWeek5.AssemblyInfo.cs
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\obj\Debug\netcoreapp3.1\HomeWorkWeek5.csproj.CoreCompileInputs.cache
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\bin\Debug\netcoreapp3.1\HomeWorkWeek5.exe
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\bin\Debug\netcoreapp3.1\HomeWorkWeek5.deps.json
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\bin\Debug\netcoreapp3.1\HomeWorkWeek5.runtimeconfig.json
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\bin\Debug\netcoreapp3.1\HomeWorkWeek5.runtimeconfig.dev.json
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\bin\Debug\netcoreapp3.1\HomeWorkWeek5.dll
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\bin\Debug\netcoreapp3.1\HomeWorkWeek5.pdb
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\obj\Debug\netcoreapp3.1\HomeWorkWeek5.dll
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\obj\Debug\netcoreapp3.1\HomeWorkWeek5.pdb
+C:\Users\86186\Desktop\算法训练营\CodePractice\PracticeCode\HomeWorkWeek5\obj\Debug\netcoreapp3.1\HomeWorkWeek5.genruntimeconfig.cache
