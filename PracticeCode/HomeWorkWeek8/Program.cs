@@ -25,9 +25,41 @@ namespace HomeWorkWeek8
             dataArry[2][1] = 0;
             dataArry[2][2] = 1;
 
-            FindCircleNum(dataArry);
+            //FindCircleNum(dataArry);
+            int[] a = { 1, 2, 3, 5  };
+            binarysearch(a, 5);
+            Console.ReadKey();
+        }
+
+
+
+        public static int binarysearch(int[] nums,int tartget)
+        {
+            int left = 0;
+            int right = nums.Length - 1;
+
+
+            while (left <= right)
+            {
+                int mid = (left + right) / 2;
+                if(nums[mid] == tartget)
+                {
+                    return mid;
+                }
+                else if(nums[mid] < tartget)
+                {
+                    left = mid + 1;
+                }
+                else if(nums[mid] > tartget)
+                {
+                    right = mid - 1;
+                }
+            }
+
+            return -1;
 
         }
+
 
         public static int FindCircleNum(int[][] m)
         {

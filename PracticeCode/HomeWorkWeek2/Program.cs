@@ -8,12 +8,123 @@ namespace HomeWorkWeek2
     class Program
     {
         static void Main(string[] args)
-        {
+       {
+            int[] nums = {1,0,-1,0,2,-2};
+            FourSum(nums, 8);
+            Console.ReadKey();
+                
 
-      
+
         }
 
 
+        // for (int i = 0; i<nums.length - 2; i++) {
+        //int target = -nums[i];
+        //Map<Integer, Integer> hashMap = new HashMap<>(nums.length - i);
+        //for (int j = i + 1; j<nums.length; j++) {
+        //    int v = target - nums[j];
+        //Integer exist = hashMap.get(v);
+        //    if (exist != null) {
+        //        List<Integer> list = Arrays.asList(nums[i], exist, nums[j]);
+        //list.sort(Comparator.naturalOrder());
+        //        result.add(list);
+        //    } else {
+        //        hashMap.put(nums[j], nums[j]);
+        //    }
+        //}
+
+
+        //public static int Jump(int[] nums)
+        //{
+        //    int max = 0;
+        //    for(int i = 0; i < nums.Length; i ++)
+        //    {
+        //        if(max > i)
+        //        {
+        //            return false;
+        //        }
+        //        max = Math.Max(nums[i]+i, max);
+        //    }
+        //    return true;
+        //}
+
+
+
+        public static int Jump(int[] nums)
+        {
+            int ans = 0;
+            int start = 0;
+            int end = 1;
+            while(end < nums.Length)
+            {
+                int max = 0;
+                for (int i = 0; i < nums.Length; i++)
+                {
+                    max = Math.Max(nums[i] + i, max);
+                }
+                start = end;
+                end = max + 1;
+                ans++;
+            }
+            return ans;
+        }
+
+
+        public static IList<IList<int>> FourSum(int[] nums,int target)
+        {
+            IList<IList<int>> result = new List<IList<int>>();
+            if (nums == null && nums.Length < 4)
+            {
+                     return result;
+            }
+            Array.Sort(nums);
+
+            for(int i = 0; i < nums.Length - 4; i ++)
+            {
+                for(int j = i + 1;j<nums.Length - 3;j++)
+                {
+                    int m = nums[i] + nums[j];
+                    int left = j + 1;
+                    int right = nums.Length - 1;
+                    while (left < right)
+                    {
+                        int temp = m + nums[left] + nums[right];
+                        if(temp == target)
+                        {
+
+                            result.Add(new List<int>(new int[] { nums[i], nums[j], nums[left], nums[right] }));
+                            while (left < right && nums[left] == nums[++left]) ;
+                            while (left < right && nums[right] == nums[--right]) ;
+                  
+                        }
+                        else if(temp > target)
+                        {
+                            while (left < right && nums[right] == nums[--right]) ;
+                           
+                        }
+                        else if(temp < target)
+                        {
+                            while (left < right && nums[left] == nums[++left]) ;
+                        }
+                    }
+                }
+            }
+            return result;
+        }
+
+
+        private static void dfs(int[] nums,int level,List<IList<int>> result,List<int> list)
+        {
+            if(level >= nums.Length)
+            {
+                result.Add(new List<int>(list));
+                return;
+            }
+
+
+
+
+        }
 
 
 
@@ -250,6 +361,34 @@ namespace HomeWorkWeek2
         //    generate(level + 1, max, s + " c");
         //}
 
+
+        public List<List<int>> bfs(TreeNode root)
+        {
+            List<List<int>> result = new List<List<int>>();
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+
+            while (queue.Count > 0)
+            {
+                int n = queue.Count;
+                List<int> list = new List<int>();
+                for (int i = 0; i < n; i++)
+                {
+                    TreeNode node = queue.Dequeue();
+                    list.Add(node.val);
+                    if (node.left != null)
+                    {
+                        queue.Enqueue(node.left);
+                    }
+                    if (node.right != null)
+                    {
+                        queue.Enqueue(node.right);
+                    }
+                }
+                result.Add(list);
+            }
+            return result;
+        }
 
     }
 }
